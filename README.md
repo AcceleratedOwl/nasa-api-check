@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NASA API Tester
 
 A Python script to test the availability and response times of various NASA APIs for the 2025 NASA Space Apps Challenge project "Data Pathways to Healthy Cities and Human Settlements".
@@ -51,3 +52,6 @@ The script will:
 - DEMO_KEY has rate limits but is suitable for testing
 - All requests have a 10-second timeout
 - Results include timestamps and detailed error information
+=======
+# nasa-api-check
+>>>>>>> a283469d07509b7618ff90fd7ce2a7f9c15cb8ad
