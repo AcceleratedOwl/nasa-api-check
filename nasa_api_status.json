@@ -1,0 +1,99 @@
+{
+  "timestamp": "2025-10-06T17:05:45.252830",
+  "total_apis": 12,
+  "active_count": 7,
+  "inactive_count": 5,
+  "active_apis": [
+    {
+      "name": "CMR API",
+      "url": "https://cmr.earthdata.nasa.gov/search/collections?page_size=1",
+      "description": "Common Metadata Repository for Earth science data",
+      "response_time": 0.9773745536804199,
+      "timestamp": "2025-10-06T17:04:41.010831"
+    },
+    {
+      "name": "GIBS WMTS GetCapabilities",
+      "url": "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/1.0.0/WMTSCapabilities.xml",
+      "description": "Global Imagery Browse Services Web Map Tile Service",
+      "response_time": 1.2621245384216309,
+      "timestamp": "2025-10-06T17:04:42.274988"
+    },
+    {
+      "name": "NASA POWER API",
+      "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M&community=RE&longitude=0&latitude=0&start=20200101&end=20200102&format=JSON",
+      "description": "Prediction of Worldwide Energy Resources",
+      "response_time": 1.8569960594177246,
+      "timestamp": "2025-10-06T17:04:44.132984"
+    },
+    {
+      "name": "AppEEARS API",
+      "url": "https://appeears.earthdatacloud.nasa.gov/api/",
+      "description": "Application for Extracting and Exploring Analysis Ready Samples",
+      "response_time": 0.949843168258667,
+      "timestamp": "2025-10-06T17:04:45.083836"
+    },
+    {
+      "name": "NASA Open APIs - APOD",
+      "url": "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY",
+      "description": "Astronomy Picture of the Day",
+      "response_time": 1.443814754486084,
+      "timestamp": "2025-10-06T17:04:46.528662"
+    },
+    {
+      "name": "EONET (Natural Events)",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events",
+      "description": "Earth Observatory Natural Event Tracker",
+      "response_time": 14.352569580078125,
+      "timestamp": "2025-10-06T17:05:13.265984"
+    },
+    {
+      "name": "Earthdata Search",
+      "url": "https://search.earthdata.nasa.gov/api/health",
+      "description": "Earthdata Search API health check",
+      "response_time": 1.9477183818817139,
+      "timestamp": "2025-10-06T17:05:15.214729"
+    }
+  ],
+  "inactive_apis": [
+    {
+      "name": "NASA Open APIs - EPIC",
+      "url": "https://api.nasa.gov/EPIC/api/natural/images?api_key=DEMO_KEY",
+      "description": "Earth Polychromatic Imaging Camera",
+      "response_time": 1.3994982242584229,
+      "timestamp": "2025-10-06T17:04:47.929178",
+      "error": "HTTP 503"
+    },
+    {
+      "name": "NASA Open APIs - Earth",
+      "url": "https://api.nasa.gov/planetary/earth/assets?lon=-95.33&lat=29.78&date=2018-01-01&api_key=DEMO_KEY",
+      "description": "Earth imagery and assets",
+      "response_time": 10,
+      "timestamp": "2025-10-06T17:04:58.912384",
+      "error": "Timeout"
+    },
+    {
+      "name": "SEDAC Main Website",
+      "url": "https://sedac.ciesin.columbia.edu/",
+      "description": "SEDAC Main Website - Socioeconomic Data and Applications Center",
+      "response_time": 10,
+      "timestamp": "2025-10-06T17:05:25.228376",
+      "error": "Timeout"
+    },
+    {
+      "name": "SEDAC GPW v4 Service Info",
+      "url": "https://sedac.ciesin.columbia.edu/arcgis-gis-server/rest/services/sedac-gpw-v4?f=json",
+      "description": "SEDAC GPW v4 Service Information",
+      "response_time": 10,
+      "timestamp": "2025-10-06T17:05:35.239761",
+      "error": "Timeout"
+    },
+    {
+      "name": "SEDAC Data Catalog",
+      "url": "https://sedac.ciesin.columbia.edu/data/collection/gpw-v4",
+      "description": "SEDAC GPW v4 Data Collection Page",
+      "response_time": 10,
+      "timestamp": "2025-10-06T17:05:45.252830",
+      "error": "Timeout"
+    }
+  ]
+}
