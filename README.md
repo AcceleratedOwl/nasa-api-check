@@ -1,14 +1,12 @@
-<<<<<<< HEAD
 # NASA API Tester
 
-A Python script to test the availability and response times of various NASA APIs for the 2025 NASA Space Apps Challenge project "Data Pathways to Healthy Cities and Human Settlements".
+Due to the wall of political change being build, some of the NASA public APIs are not available  
+A Python script to test the availability and response times of various NASA APIs.
 
 ## Features
 
-- Tests 9 different NASA APIs
-- Colored terminal output (green for success, red for failure)
+- Tests 12 different NASA APIs
 - Response time tracking
-- Graceful error handling
 - Results saved to JSON file
 - 10-second timeout for each request
 
@@ -41,17 +39,25 @@ python nasa_api_tester.py
 ## Output
 
 The script will:
-- Display real-time results with colored output
 - Show response times for each API
 - Print a summary of active vs inactive APIs
 - Save detailed results to `nasa_api_status.json`
 
 ## Notes
 
-- Uses NASA's public DEMO_KEY for api.nasa.gov endpoints
-- DEMO_KEY has rate limits but is suitable for testing
-- All requests have a 10-second timeout
-- Results include timestamps and detailed error information
-=======
-# nasa-api-check
->>>>>>> a283469d07509b7618ff90fd7ce2a7f9c15cb8ad
+06.10.2025 test result
+
+Active APIs (7/12):
+CMR API - Active (0.98s response time)
+GIBS WMTS GetCapabilities - Active (1.26s response time)
+NASA POWER API - Active (1.86s response time)
+AppEEARS API - Active (0.95s response time)
+NASA Open APIs - APOD - Active (1.44s response time)
+EONET (Natural Events) - Active (14.35s response time)
+Earthdata Search - Active (1.95s response time)
+Inactive APIs (5/12):
+NASA Open APIs - EPIC - HTTP 503 error
+NASA Open APIs - Earth - Timeout
+SEDAC Main Website - Timeout
+SEDAC GPW v4 Service Info - Timeout
+SEDAC Data Catalog - Timeout
